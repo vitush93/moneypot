@@ -3,9 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "ipfs": "^0.28.2",
     "keypair": "^1.0.1",
-    "orbit-db": "^0.19.7",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-scripts": "1.1.4",

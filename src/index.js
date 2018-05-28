@@ -2,8 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
-import d from './Test';
-console.log(d);
+
 
 // generate key pair
 // const keypair = require('keypair');
@@ -13,4 +12,4 @@ console.log(d);
 
 
 ReactDOM.render(<App />, document.getElementById('root'));
-// registerServiceWorker();
+registerServiceWorker();

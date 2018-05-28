@@ -1,11 +1,6 @@
 import React, { Component } from 'react';
 import { Form, Container, Grid } from 'semantic-ui-react';
-import d from './Test';
 
-console.log(d);
-
-const IPFS = require('ipfs');
-const OrbitDB = require('orbit-db');
 
 const ipfsOptions = {
   repo: './ipfs1',
@@ -25,10 +20,10 @@ const ipfsOptions = {
 };
 
 // Create IPFS instance
-const ipfs = new IPFS(ipfsOptions);
+const ipfs = new window.Ipfs(ipfsOptions);
 
 // Create a database
-const orbitdb = new OrbitDB(ipfs, './orbitdb1');
+const orbitdb = new window.OrbitDB(ipfs, './orbitdb1');
 
 
 class App extends Component {
